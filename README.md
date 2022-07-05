@@ -19,15 +19,11 @@
 ## Passos
 1. Git clone no terminal
   - git clone https://github.com/EngMarianaBrito/RevGas.git
-2. Como é um projeto python crie a sua maquina virtual inicie ela:
-*caso de problema em iniciar a maquina crie uma sua)*
-  - pip install virtualenv
-  - virtualenv MV_revgas
-  - source ./MV_revgas/bin/activate *(para mac e linux)*
-  - pip install django
-3. De o comando python para iniciar:
+2. De o comando python para iniciar:
   - python manage.py runserver
   -caso de erro na sua versão do python de: python3 manage.py runserver
+3. Em seguida acesse a sua URL com o barra /banks
+  - Solicite o arquico .env para o programador e coloque ele na raiz do seu projeto.  
 
 >"Uma linha de código de cada vez até que eu possa mudar o mundo"
 
