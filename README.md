@@ -1,6 +1,6 @@
 # RevGas
-Python e Mysql
-
+  
+## Funcionando  
 >Buscando por numero
 <div align="center">
   <img src="https://github.com/EngMarianaBrito/RevGas/blob/main/image/1.png" width="420" height="275" />
@@ -15,6 +15,19 @@ Python e Mysql
 <div align="center">
   <img src="https://github.com/EngMarianaBrito/RevGas/blob/main/image/3.png" width="420" height="275" />
 </div>
+
+## Passos
+1. Git clone no terminal
+  - git clone https://github.com/EngMarianaBrito/RevGas.git
+2. Como é um projeto python crie a sua maquina virtual inicie ela:
+*caso de problema em iniciar a maquina crie uma sua)*
+  - pip install virtualenv
+  - virtualenv MV_revgas
+  - source ./MV_revgas/bin/activate *(para mac e linux)*
+  - pip install django
+3. De o comando python para iniciar:
+  - python manage.py runserver
+  -caso de erro na sua versão do python de: python3 manage.py runserver
 
 >"Uma linha de código de cada vez até que eu possa mudar o mundo"
 
