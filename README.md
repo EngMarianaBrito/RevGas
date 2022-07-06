@@ -1,4 +1,8 @@
 # RevGas
+<div align="center">
+  <img src="https://github.com/EngMarianaBrito/RevGas/blob/main/image/logo.png" width="355" height="230" />
+</div>
+
 ## Passos
 1. Git clone no terminal
   - git clone https://github.com/EngMarianaBrito/RevGas.git
