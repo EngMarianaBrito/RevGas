@@ -7,9 +7,9 @@
 1. Git clone no terminal
   - git clone https://github.com/EngMarianaBrito/RevGas.git
 2. De o comando python para iniciar o seu back end:
-  - python manage.py runserver
-  - caso de erro na sua versão do python de: python3 manage.py runserver
-3. Em seguida acesse a sua URL com o barra /banks
+  - python manage.py runserver ou python3 manage.py runserver
+  - caso de erro na sua porta,faça: python3 manage.py runserver 8080 
+3. Em seguida acesse a sua URL com o barra /banks : http://127.0.0.1:8080/banks/
   - Solicite o arquico .env para o programador e coloque ele na raiz do seu projeto.  
 4. Para acessar o front de o yarn start ou nmp start
 5. Prontinho projeto funcionando
